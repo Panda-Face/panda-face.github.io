@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
 
-    <title>Source - Panda Face</title>
+    <title>Specifications - Panda Face</title>
     <meta name="description"    content=""/>
     <meta name="keywords"       content=""/>
     
@@ -45,17 +45,17 @@
                             </a>
                         </li>
                         <li class="col nav-item mb-2 mb-lg-0">
-                            <a class="nav-link px-2" href="./../specifications/" title="Specifications">
+                            <a class="nav-link px-2 disabled active" href="./../specifications/" title="Specifications">
                                 Specifications
                             </a>
                         </li>
                         <li class="col nav-item mb-2 mb-lg-0">
-                            <a class="nav-link px-2 disabled active" href="./../sources/" title="Sources">
+                            <a class="nav-link px-2" href="./../sources/" title="Sources">
                                 Sources
                             </a>
                         </li>
                         <li class="col nav-item mb-2 mb-lg-0">
-                            <a class="nav-link px-2 btn btn-primary" href="https://github.com/Panda-Face/" title="Github repositories of Panda Face" target="_blank">
+                            <a class="nav-link px-2 btn btn-secondary" href="https://github.com/Panda-Face/" title="Github repositories of Panda Face" target="_blank">
                                 PandaFace Github
                             </a>
                         </li>
@@ -67,7 +67,7 @@
     <section class="py-2 bg-primary">
     	<div class="container">
 			<h1 class="text-white">
-	    		Sources
+	    		Specifications
 	    	</h1>
     	</div>
     </section>
@@ -78,8 +78,28 @@
                     <nav class="p-0" id="streamer-toc">
             			<ul class="list-unstyled navbar-list mb-0">
             				<li class="nav-item">
-                                <a href="#blockstream" title="Blockstream" class="nav-link border-left py-3">
-            					   Blockstream
+                                <a href="#context" title="Context" class="nav-link border-left py-3">
+            					   Context
+                                </a>
+            				</li>
+            				<li class="nav-item">
+                                <a href="#architecture" title="Architecture" class="nav-link border-left py-3">
+            					   Architecture
+                                </a>
+            				</li>
+            				<li class="nav-item">
+                                <a href="#leads" title="Leads" class="nav-link border-left py-3">
+            					   Leads
+                                </a>
+            				</li>
+            				<li class="nav-item">
+                                <a href="#user-interfaces" title="User Interfaces" class="nav-link border-left py-3">
+            					   User Interfaces (macaron)
+                                </a>
+            				</li>
+            				<li class="nav-item">
+                                <a href="#admin-interfaces" title="Admin Interfaces" class="nav-link border-left py-3">
+            					   Admin Interfaces
                                 </a>
             				</li>
             				<li class="nav-item">
@@ -87,109 +107,82 @@
             					   Liquid
                                 </a>
             				</li>
-            				<li class="nav-item">
-                                <a href="#press" title="Press" class="nav-link border-left py-3">
-            					   Press
+                            <li class="nav-item">
+                                <a href="#data-base" title="Data Base" class="nav-link border-left py-3">
+                                   Data Base
                                 </a>
-            				</li>
-            				<li class="nav-item">
-                                <a href="#openapi" title="OpenAPI" class="nav-link border-left py-3">
-            					   OpenAPI
-                                </a>
-            				</li>
-            				<li class="nav-item">
-                                <a href="#elements-project" title="Elements Project" class="nav-link border-left py-3">
-            					   Elements Project
-                                </a>
-            				</li>
-            				<li class="nav-item">
-                                <a href="#others" title="Others" class="nav-link border-left py-3">
-            					   Others
-                                </a>
-            				</li>
+                            </li>
             			</ul>
                     </nav>
         		</aside>
                 <div class="col-md-9">
-	                <h2 id="blockstream">
-	                    Blockstream
+	                <h2 id="context">
+                        Context
+                    </h2>
+                    <p>
+                        This purpose of this document is to detail the specifications of the architecture for the stable coin backed by Euro.
+                    </p>
+                    <p>
+                        There are 3 components in the architecture specifications:<br/>
+                        - Frontend for User management with KYC/AML dashboard (and API?)<br/>
+                        - Backend for administrator with Liquid asset manager implementation handling minting/burning/auditing process
+                    </p>
+                    <p>
+                        Each section should details when applicable:<br/>
+                        - User story describing how real humans will interact with the platform<br/>
+                        - API call<br/>
+                        - dashboard mockups<br/>
+                        - Framework, library, language used
+                    </p>
+                    <h2 id="architecture">
+	                    Architecture
 	                </h2>
-	                <ul>
-		                <li>
-		                	<a href="https://docs.blockstream.com/liquid/technical_overview.html#stablecoins-tokenized-fiat" title="Docs BlockStream Liquid" rel="nofollow" target="_blank">
-			                    Docs BlockStream Liquid
-			                </a>
-			            </li>
-		                <li>
-		                    <a href="https://docs.blockstream.com/liquid/quickstart.html" target="_blank" rel="nofollow">
-		                        Docs Blockstream Liquid Quickstart
-		                    </a> 
-		                </li>
-		                <li>
-		                    <a href="https://assets.blockstream.info/" target="_blank" rel="nofollow">
-		                        Blockstream - Assets Explorer
-		                    </a> 
-		                </li>
-		                <li>
-		                    <a href="https://blockstream.info/liquid/" target="_blank" rel="nofollow">
-		                        Blockstream - Liquid Explorer
-		                    </a> 
-		                </li>
-		            </ul>
-	                <h2 id="liquid">
+	                <p>
+
+                    </p>
+	                <h2 id="leads">
+	                    Leads
+	                </h2>
+	                <p>
+
+                    </p>
+	                <h2 id="press">
+	                    User Interfaces
+	                </h2>
+					<p>
+
+                    </p>
+					<h2 id="openapi">
+	                    Admin Interfaces
+	                </h2>
+					<p>
+
+                    </p>
+					<h2 id="elements-project">
 	                    Liquid
 	                </h2>
-	                <ul>
+					<ul>
 					    <li>
-					        <a href="./docs/Liquid_Integration_and_Support_Agreement_(Non-Functionary).docx" target="_blank" rel="nofollow">Liquid Integration and Support Agreeement (Non Functionary) (DOCX)</a> 
+					        <a href="https://docs.blockstream.com/liquid/technical_overview.html" target="_blank" rel="nofollow">
+					            https://docs.blockstream.com/liquid/technical_overview.html
+					        </a> 
 					    </li>
-					    <li>
-					        <a href="./docs/Liquid_Technical_Overview.pdf" target="_blank" rel="nofollow">Liquid Technical Overview (PDF)</a> 
-					    </li>
+                        <li>
+                            Installed Single server. Need to write custom API?
+                        </li>
+                        <li>
+                            Firewalled to limit connection only from admin interface
+                        </li>
+                        <li>
+                            Deployed on single server on Digital Ocean (?)
+                        </li>
 					</ul>
-	                <h2 id="press">
-	                    Press
+					<h2 id="data-base">
+	                    Data Base
 	                </h2>
 					<ul>
 					    <li>
-					        <a href="https://journalducoin.com/bitcoin/blockstream-annonce-atomics-swap-liquid-network/" target="_blank" rel="nofollow">
-					            Journal du Coin - Blockstream Atomic Swap on Liquid Network
-					        </a> 
-					    </li>
-					</ul>
-					<h2 id="openapi">
-	                    Open API
-	                </h2>
-					<ul>
-					    <li>
-					        <a href="https://github.com/OpenBankProject/OBP-API" target="_blank" rel="nofollow">
-					            Github - Open Bank Project
-					        </a> 
-					    </li>
-					</ul>
-					<h2 id="elements-project">
-	                    Elements Project
-	                </h2>
-					<ul>
-					    <li>
-					        <a href="https://elementsproject.org/elements-code-tutorial/advanced-examples" target="_blank" rel="nofollow">
-					            Elements Project - Code Tutorial - Examples
-					        </a> 
-					    </li>
-					</ul>
-					<h2 id="others">
-	                    Others
-	                </h2>
-					<ul>
-					    <li>
-					        <a href="https://github.com/aichbauer/express-rest-api-boilerplate" target="_blank" rel="nofollow">
-					            Github - aichbauer/express-rest-api-boilerplate
-					        </a> 
-					    </li>
-					    <li>
-					        <a href="https://docs.synaps.io/" target="_blank" rel="nofollow">
-					            Docs Synaps.io
-					        </a> 
+					        Serviced DB to handle replications/sharding/uptime ...
 					    </li>
 					</ul>
 		        </div>
