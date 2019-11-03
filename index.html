@@ -29,93 +29,62 @@
     <link rel="stylesheet"          media="all"     type="text/css"     href="./styles/design.css"   />
 </head>
 <body>
-    <header class="bg-dark">
+    <header class="border-bottom">
         <nav class="navbar navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a href="/" class="navbar-brand text-white" rel="home" title="">
-                        <img style="max-height:50px;" src="./images/logo.png" alt="PandaFace" class="mr-3"/> Panda Face
+                    <a href="/" class="navbar-brand" rel="home" title="PandaFace">
+                        <img style="max-height:50px;" src="./images/logo.png" alt="PandaFace" class="mr-3"/> <span class="h4 font-weight-bold text-dark"><i>PandaFace</i></span>
                     </a>
                 </div>
+                <nav class="navbar-nav float-left text-nowrap">
+                    <ul class="row nav">
+                        <li class="col nav-item mb-2 mb-lg-0">
+                            <a class="nav-link px-2" href="./pages/get_started/index.html" title="Get Started">
+                                Get started
+                            </a>
+                        </li>
+                        <li class="col nav-item mb-2 mb-lg-0">
+                            <a class="nav-link px-2" href="./pages/specifications/index.html" title="Specifications">
+                                Specifications
+                            </a>
+                        </li>
+                        <li class="col nav-item mb-2 mb-lg-0">
+                            <a class="nav-link px-2" href="./pages/sources/index.html" title="Sources">
+                                Sources
+                            </a>
+                        </li>
+                        <li class="col nav-item mb-2 mb-lg-0">
+                            <a class="nav-link px-2 btn btn-primary" href="https://github.com/Panda-Face/" title="Github repositories of Panda Face" target="_blanck">
+                                PandaFace Github
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </nav>
     </header>
-    <main class="mt-5" role="main">
+    <section class="py-5 bg-primary">
+    	<h1 class="my-5 py-5 text-center text-white">
+    		Create a complete stable coin technology to Peg with Euro.
+    	</h1>
+    </section>
+    <main class="my-5" role="main">
         <div class="container">
-            <div class="jumbotron">
-                <h2>Objective</h2>
-                <p>
-                    Create a complete stable coin technology stack with primary objective to Peg with Euro.
-                </p>
-                <h2>Rules for contribution</h2>
-                <p>
-                    MIT license, completely open source. Contributors are accepting to review, write or test code written
-                </p>
-                <p>
-                    This repository is holding the specifications to build such a stack.
-                    The first draft is to describe a MVP able to connect to a bank, edging tokenised Euro running on liquid.<br/>
-                    <a href="https://docs.blockstream.com/liquid/technical_overview.html#stablecoins-tokenized-fiat" title="Docs BlockStream Liquid" rel="nofollow" target="_blanck">
-                        Docs BlockStream Liquid
-                    </a>
-                </p>
-                <h2>License</h2>
-                <p>
-                    MIT License
-                    Copyright the Panda Face
-                </p>
-                <h2>Sources</h2>
-                <a href="https://github.com/Panda-Face/" title="GitHub" rel="nofollow" target="_blanck">Github de Panda Face</a>
-            </div>
-            <h2 id="sources">Sources Extérieures</h2>
-            <ul>
-                <li>
-                    <a href="./docs/Liquid_Integration_and_Support_Agreement_(Non-Functionary).docx" target="_blank" rel="nofollow">Liquid Integration and Support Agreeement (Non Functionary) (DOCX)</a> 
-                </li>
-                <li>
-                    <a href="./docs/Liquid_Technical_Overview.pdf" target="_blank" rel="nofollow">Liquid Technical Overview (PDF)</a> 
-                </li>
-                <li>
-                    <a href="https://github.com/aichbauer/express-rest-api-boilerplate" target="_blank" rel="nofollow">
-                        Github - aichbauer/express-rest-api-boilerplate
-                    </a> 
-                </li>
-                <li>
-                    <a href="https://docs.synaps.io/" target="_blank" rel="nofollow">
-                        Docs Synaps.io
-                    </a> 
-                </li>
-                <li>
-                    <a href="https://docs.blockstream.com/liquid/quickstart.html" target="_blank" rel="nofollow">
-                        Docs Blockstream Liquid Quickstart
-                    </a> 
-                </li>
-                <li>
-                    <a href="https://journalducoin.com/bitcoin/blockstream-annonce-atomics-swap-liquid-network/" target="_blank" rel="nofollow">
-                        Journal du Coin - Blockstream Atomic Swap on Liquid Network
-                    </a> 
-                </li>
-                <li>
-                    <a href="https://assets.blockstream.info/" target="_blank" rel="nofollow">
-                        Blockstream - Assets Explorer
-                    </a> 
-                </li>
-                <li>
-                    <a href="https://blockstream.info/liquid/" target="_blank" rel="nofollow">
-                        Blockstream - Liquid Explorer
-                    </a> 
-                </li>
-                <li>
-                    <a href="https://elementsproject.org/elements-code-tutorial/advanced-examples" target="_blank" rel="nofollow">
-                        Elements Project - Code Tutorial - Examples
-                    </a> 
-                </li>
-                <li>
-                    <a href="https://github.com/OpenBankProject/OBP-API" target="_blank" rel="nofollow">
-                        Github - Open Bank Project
-                    </a> 
-                </li>
-                
-            </ul>
+            <h2>Rules for contribution</h2>
+            <p>
+                MIT license, completely open source.<br/>
+                Contributors are accepting to review, write or test code written
+            </p>
+            <p>
+                This repository is holding the specifications to build such a stack.<br/>
+                The first draft is to describe a MVP able to connect to a bank, edging tokenised Euro running on liquid.<br/>
+            </p>
+            <h2>License</h2>
+            <p>
+                MIT License<br/>
+                Copyright the Panda Face
+            </p>
             <h2>Panda Face - Fonctionnel</h2>
             <ul>
                 <li>
@@ -126,17 +95,11 @@
             </ul>
         </div>
     </main>
-    <footer class="bg-dark mt-5 py-5">
+    <footer class="bg-dark mt-5 py-2">
         <div class="container">
-            <a href="#" title="PandaFace" class="text-white">PandaFace</a>
-            <ul class="footer-list">
-                <li class="footer-list-item">
-                    <a href="./about/">A propos de PandaFace</a>
-                </li>
-                <li class="footer-list-item">
-                    <a href="./developers/">API de PandaFace</a>
-                </li>
-            </ul>
+            <a href="/" class="navbar-brand text-white" rel="home" title="">
+                <img style="max-height:50px;" src="./images/logo.png" alt="PandaFace" class="mr-3"/> <strong><i>PandaFace</i></strong>
+            </a>
         </div>
     </footer>
 </body>
