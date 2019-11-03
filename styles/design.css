@@ -1,10 +1,10 @@
 ﻿
 :root {
-    --primary:#55aaee;
-    --primary-hover:#4499dd;
+    --primary:#000099;
+    --primary-hover:#4444dd;
 
-    --secondary:#55eeaa;
-    --secondary-hover:#44dd99;
+    --secondary:#ffcc00;
+    --secondary-hover:#ddaa00;
 
     --muted:#555555;
 }
@@ -53,16 +53,20 @@ h1, h2, h3, h4, h5, h6, label {
 .btn-primary {
   background-color: var(--primary) !important;
   color: white;
-  border: none;
+  border: none !important;
 }
 .btn-primary:hover {
   background-color: var(--primary-hover) !important;
-  border: none;
+  border: none !important;
 }
 .btn-secondary {
   background-color: var(--secondary) !important;
   color: white;
-  border: none;
+  border: none !important;
+}
+.btn-secondary:hover {
+  background-color: var(--secondary-hover) !important;
+  border: none !important;
 }
 
 body {
