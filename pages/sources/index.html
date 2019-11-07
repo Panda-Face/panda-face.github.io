@@ -30,7 +30,7 @@
 </head>
 <body id="top" data-spy="scroll" data-target="#streamer-toc" data-offset="130">
     <header class="border-bottom">
-        <nav class="navbar navbar-fixed-top">
+        <nav class="navbar navbar-fixed-top py-0">
             <div class="container">
                 <div class="navbar-header">
                     <a href="../../" class="navbar-brand" rel="home" title="PandaFace">
@@ -40,23 +40,23 @@
                 <nav class="navbar-nav float-left text-nowrap">
                     <ul class="row nav">
                         <li class="col nav-item mb-2 mb-lg-0">
-                            <a class="nav-link px-2" href="./../get_started/" title="Get Started">
-                                Get started
+                            <a class="nav-link text-center px-2" href="./../get_started/" title="Get Started">
+                                <i data-feather="play"></i><br/>Get started
                             </a>
                         </li>
                         <li class="col nav-item mb-2 mb-lg-0">
-                            <a class="nav-link px-2" href="./../specifications/" title="Specifications">
-                                Specifications
+                            <a class="nav-link text-center px-2" href="./../specifications/" title="Specifications">
+                                <i data-feather="code"></i><br/>Specifications
                             </a>
                         </li>
                         <li class="col nav-item mb-2 mb-lg-0">
-                            <a class="nav-link px-2 disabled active" href="./../sources/" title="Sources">
-                                Sources
+                            <a class="nav-link text-center px-2 disabled active" href="./../sources/" title="Sources">
+                                <i data-feather="link"></i><br/>Sources
                             </a>
                         </li>
-                        <li class="col nav-item mb-2 mb-lg-0">
-                            <a class="nav-link px-2 btn btn-secondary" href="https://github.com/Panda-Face/" title="Github repositories of Panda Face" target="_blank">
-                                PandaFace Github
+                        <li class="col nav-item my-2 mb-lg-0">
+                            <a class="nav-link px-2 mt-1 btn btn-secondary" href="https://github.com/Panda-Face/" title="Github repositories of Panda Face" target="_blank">
+                                <i data-feather="github" class="mr-2"></i>PandaFace Github
                             </a>
                         </li>
                     </ul>
@@ -87,6 +87,11 @@
             					   Liquid
                                 </a>
             				</li>
+                            <li class="nav-item">
+                                <a href="#elements-project" title="Elements Project" class="nav-link border-left py-3">
+                                   Elements Project
+                                </a>
+                            </li>
             				<li class="nav-item">
                                 <a href="#press" title="Press" class="nav-link border-left py-3">
             					   Press
@@ -95,11 +100,6 @@
             				<li class="nav-item">
                                 <a href="#openapi" title="OpenAPI" class="nav-link border-left py-3">
             					   OpenAPI
-                                </a>
-            				</li>
-            				<li class="nav-item">
-                                <a href="#elements-project" title="Elements Project" class="nav-link border-left py-3">
-            					   Elements Project
                                 </a>
             				</li>
             				<li class="nav-item">
@@ -116,11 +116,6 @@
 	                </h2>
 	                <ul>
 		                <li>
-		                	<a href="https://docs.blockstream.com/liquid/technical_overview.html#stablecoins-tokenized-fiat" title="Docs BlockStream Liquid" rel="nofollow" target="_blank">
-			                    [EN] Docs BlockStream Liquid
-			                </a>
-			            </li>
-		                <li>
 		                    <a href="https://docs.blockstream.com/liquid/quickstart.html" target="_blank" rel="nofollow">
 		                        Docs Blockstream Liquid Quickstart
 		                    </a> 
@@ -130,6 +125,11 @@
 		                        Blockstream - Assets Explorer
 		                    </a> 
 		                </li>
+                        <li>
+                            <a href="https://docs.blockstream.com/liquid/technical_overview.html#stablecoins-tokenized-fiat" title="Docs BlockStream Liquid" rel="nofollow" target="_blank">
+                                [EN] Docs BlockStream Liquid
+                            </a>
+                        </li>
                         <li>
                             <a href="https://blockstream.com/liquid-faq/" target="_blank" rel="nofollow">
                                 [EN] Blockstream - Liquid FAQ
@@ -147,6 +147,16 @@
 					        <a href="./docs/Liquid_Technical_Overview.pdf" target="_blank" rel="nofollow">Liquid Technical Overview (PDF)</a> 
 					    </li>
 					</ul>
+                    <h2 id="elements-project">
+                        Elements Project
+                    </h2>
+                    <ul>
+                        <li>
+                            <a href="https://elementsproject.org/elements-code-tutorial/advanced-examples" target="_blank" rel="nofollow">
+                                [EN] Elements Project - Code Tutorial - Examples
+                            </a> 
+                        </li>
+                    </ul>
 	                <h2 id="press">
 	                    Press
 	                </h2>
@@ -164,6 +174,11 @@
                         <li>
                             <a href="https://journalducoin.com/altcoins/cryptomonnaie-facebook-g7-inquietude-risques-stablecoins/" target="_blank" rel="nofollow">
                                 [FR] Journal du Coin - Cryptomonnaie de Facebook : le G7 s’inquiète des risques liés aux stablecoins
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="https://journalducoin.com/bitcoin/podcast-du-coin-5-pierre-person-depute-crypto-euro/" target="_blank" rel="nofollow">
+                                [FR] Journal du Coin - Le député Pierre Person défend le crypto-euro
                             </a> 
                         </li>
                         <li>
@@ -206,6 +221,12 @@
                                 [EN] Money as IOUs in a Social Trust Network and A Proposal for a Secure, Private, Decentralized Digital Currency Protocol
                             </a> 
                         </li>
+                        <li>
+                            <a href="https://www.latribune.fr/entreprises-finance/banques-finance/vingt-banques-europeennes-travaillent-sur-une-solution-de-paiement-paneuropeenne-pepsi-832403.html" target="_blank" rel="nofollow">
+                                [FR] La Tribune - Vingt banques européennes travaillent sur une solution de paiement paneuropéenne PEPSI
+                            </a> 
+                        </li>
+                        
 					</ul>
 					<h2 id="openapi">
 	                    Open API
@@ -214,16 +235,6 @@
 					    <li>
 					        <a href="https://github.com/OpenBankProject/OBP-API" target="_blank" rel="nofollow">
 					            Github - Open Bank Project
-					        </a> 
-					    </li>
-					</ul>
-					<h2 id="elements-project">
-	                    Elements Project
-	                </h2>
-					<ul>
-					    <li>
-					        <a href="https://elementsproject.org/elements-code-tutorial/advanced-examples" target="_blank" rel="nofollow">
-					            [EN] Elements Project - Code Tutorial - Examples
 					        </a> 
 					    </li>
 					</ul>
@@ -321,6 +332,7 @@
     <script type="text/javascript" src="../../lib/jquery/jquery-3.4.0.min.js"></script>
     <script type="text/javascript" src="../../lib/bootstrap/bootstrap-4.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../../lib/bootstrap/popper.min.js"></script>
+    <script type="text/javascript" src="../../js/feather.min.js"></script>
     <script type="text/javascript" src="../../js/main.js"></script>
 </body>
 </html>

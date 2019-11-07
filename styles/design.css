@@ -92,5 +92,5 @@ header ul.nav li.nav-item a.nav-link.active {
 }
 
 header ul.nav li.nav-item a.nav-link:hover {
-	border-bottom : 3px solid var(--primary);
+	border-bottom : 3px solid var(--primary-hover);
 }
