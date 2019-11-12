@@ -94,3 +94,15 @@ header ul.nav li.nav-item a.nav-link.active {
 header ul.nav li.nav-item a.nav-link:hover {
 	border-bottom : 3px solid var(--primary-hover);
 }
+
+
+aside nav a.nav-link{
+  color: var(--muted) !important;
+}
+aside nav a.nav-link:hover{
+  color: var(--primary-hover) !important;
+}
+aside nav a.nav-link.active{
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
