@@ -82,6 +82,10 @@ a:hover {
 	color: var(--primary-hover);
 }
 
+p {
+  text-align: justify;
+}
+
 
 header ul.nav li.nav-item a.nav-link {
 	border-bottom : 3px solid transparent;
